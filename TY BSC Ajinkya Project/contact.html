@@ -1,0 +1,152 @@
+<html>
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Comapatible" content="IE-edge" />
+    <meta name="viewimport" content="width=device-width,initial-scale=1.0" />
+    <title>Ajinkya Project</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script>
+     
+      function validateEmail(){
+        var email=document.getElementById("email").value;
+        var pattern=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if(!pattern.test(email)){
+          alert("Enter Correct Email Address!!!!");
+          return false
+        }
+        else{
+          alert("YOU HAVE SIGNED UP FOR OUR NEWSLETTER. YOU WILL BE INFORMED ABOUT UPCOMING SALES AND OFFERS");
+          return true;
+        }
+      }
+     
+    </script>
+  </head>
+  
+
+
+  <body>
+
+    <section id="header">
+      <a href="#">
+        <img src="" class="logo" alt=""><i class="fa-duotone fa-bullseye fa-bounce fa-lg"> </i> </img>
+      </a>
+      <div>
+        <ul id="navbar">
+          <li><a  href="Project.html">HOME</a></li>
+          <li><a href="shop.html"> SHOP</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a class="active"  href="contact.html">CONTACT</a></li>
+          <li>
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+          </li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="page-header" class="about-header"> 
+      
+      <h2>#Get Connected</h2>
+     
+      <p>Connect me; and leave me a message.</p>
+     
+    </section>
+
+    <section id="contact-details" class="section-p1">
+        <div class="details"> 
+            <span>Get in Touch</span>
+            <h2>Follow on instagram</h2>         
+            <h2><a href="https://www.instagram.com/invites/contact/?i=1knxut9spoldo&utm_content=3pdene5"><i class="fab fa-instagram"></i></a></h2> 
+            <h3>Add Friend on Facebook</h3>
+            <h2><a href="https://www.facebook.com/ajinkya.thakur.3110?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></h2>
+            <div>
+                <li>
+                    <i class="fal fa-map"></i>
+                    <p>Ganadhish Sankul,605 B wing,Hingne Khurd,Pune 411051</p>
+                </li>
+
+                <li>
+                    <i class="fal fa-envelope"></i>
+                    <p>ajinkyaathakur@gmail.com</p>
+                </li>
+
+                <li>
+                    <i class="fal fa-phone-alt"></i>
+                    <p>+91 9922111646</p>
+                </li>
+            </div>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.1851493901263!2d73.83588247506226!3d18.520533482573015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf871c30fa5b%3A0x27aebf8eb337ef50!2sMMCC!5e0!3m2!1sen!2sin!4v1684218162903!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <span>Leave a message</span>
+            <h3>I would Love to hear a review from you</h3>
+            <input type="text" placeholder="Your name">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Review"></textarea>
+            <button class="normal">Submit</button>
+        </form>
+        <div class="people">
+            <div>
+            <img src="Images/Person/1.png" alt="Ajinkya">
+            <p><span>Ajinkya Thakur</span>Project Owner<br>Roll no 129</p>
+            </div>    
+        </div>
+
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up for NewsLetter</h4>
+        <p>Get E-mail updates about our latest shop and <span>Special offers</span>.</p>
+      </div>
+      <div class="form">
+        <input type="email" placeholder="Your Email Address" name="email" id="email" required>
+        <button class="normal" onclick="return validateEmail()">Sign Up</button>
+
+      </div>
+
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="" alt="LOgo">
+        <h4>CONTACT</h4>
+        <p><strong>Address:</strong>605,Ganadhish Sankul,Hingne,Pune,411051</p>
+        <p><strong>Phone:</strong>9922111646</p>
+      </div>  
+        <div class="col">
+          <h3>Follow Me</h3><br>
+          <div class="icon">
+            <h2><a href="https://www.facebook.com/ajinkya.thakur.3110?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a><br><br>
+            <a href="https://www.instagram.com/invites/contact/?i=1knxut9spoldo&utm_content=3pdene5"><i class="fab fa-instagram"></i></a></h2> 
+          </div>
+        </div>
+      <div class="col">
+        <h4>About Me</h4>
+        <p>Ajinkya Thakur</p>
+        <p>Roll no:129</p>
+        <p>TyBSc(CS)</p>
+      </div>
+
+
+
+    </footer>
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
